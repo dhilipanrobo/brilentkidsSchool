@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="com.notesboard.admin.bkschool.com.notesboard.admin.bkschool.Bus">
+
+    <RelativeLayout
+
+      android:background="@drawable/trackbus"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:background="#ffffff"
+            android:layout_marginTop="350dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:background="#ffffff"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/button24"
+                    android:layout_width="50dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="#00000000"
+
+                    android:drawableTop="@drawable/bus"
+
+                    android:text="bus-1"
+                    android:textColor="#ff6200"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:background="#ffffff"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:textColor="#ff6200"
+                    android:orientation="vertical"></LinearLayout>
+
+                <Button
+                    android:id="@+id/button19"
+                    android:layout_width="50dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="#00000000"
+
+                    android:drawableTop="@drawable/bus"
+
+                    android:text="bus-2"
+                    android:textColor="#ff6200"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="#ffffff"
+                    android:orientation="vertical"></LinearLayout>
+
+                <Button
+                    android:id="@+id/button20"
+                    android:layout_width="50dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="#00000000"
+
+                    android:drawableTop="@drawable/bus"
+
+                    android:text="bus-3"
+                    android:textColor="#ff6200"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:background="#ffffff"
+                android:layout_marginTop="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:background="#ffffff"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/button21"
+                        android:layout_width="50dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:background="#00000000"
+
+                        android:drawableTop="@drawable/minibus"
+
+                        android:text="van-1"
+                        android:textColor="#ff6200"
+                        android:textSize="16sp"
+                        android:textStyle="bold"/>
+                    <Button
+                        android:id="@+id/button23"
+                        android:layout_width="50dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:background="#00000000"
+
+                        android:drawableTop="@drawable/minibus"
+
+                        android:text="van-2"
+                        android:textColor="#ff6200"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:background="#00000000"
+
+                        android:drawableTop="@drawable/minibus"
+
+                        android:text="van-3"
+                        android:textColor="#ff6200"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:id="@+id/button22"
+                        android:layout_width="50dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                       />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

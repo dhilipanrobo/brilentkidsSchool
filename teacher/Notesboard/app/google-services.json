@@ -1,0 +1,81 @@
+{
+  "project_info": {
+    "project_number": "104479774359",
+    "firebase_url": "https://bkschool-b0114.firebaseio.com",
+    "project_id": "bkschool-b0114",
+    "storage_bucket": "bkschool-b0114.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:104479774359:android:5e98330d2539cc23",
+        "android_client_info": {
+          "package_name": "com.notesboard.admin.BKTeachers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "104479774359-4t6b7qge189nn11d80om4ocaltv7df8h.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "104479774359-4t6b7qge189nn11d80om4ocaltv7df8h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkPytMcHtUtJ1MNnj9zgLB85l5LxHiVUQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:104479774359:android:b0461d5b95d612cc",
+        "android_client_info": {
+          "package_name": "com.notesboard.admin.bkschool"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "104479774359-4t6b7qge189nn11d80om4ocaltv7df8h.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "104479774359-4t6b7qge189nn11d80om4ocaltv7df8h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkPytMcHtUtJ1MNnj9zgLB85l5LxHiVUQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
